@@ -1,6 +1,6 @@
 import { InjectionToken, Type } from '@angular/core';
 
-export const INERTIA_PAGES = new InjectionToken<InertiaPage>('INERTIA_PAGES');
+export const INERTIA_PAGES = new InjectionToken<InertiaPage[]>('INERTIA_PAGES');
 
 export enum InertiaMetadata {
   component = 'inertia:component'
